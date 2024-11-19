@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: '/.well-known/jwks.json',
-        destination: '/jwks',
+        destination: '/api/jwks',
       }
     ]
   }
